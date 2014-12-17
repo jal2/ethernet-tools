@@ -51,6 +51,8 @@ This tool will extract UDP packets with a given destination port from a pcap fil
 and print the payload preceeded by a timestamp (absolute time in UTC).
 This may be quite helpful when programs send their printable output via UDP and we want to timestamp the lines. 
 
+You need to install the package libpcap-dev in order to build this program.
+
 Example:
 ```
 ./udp2txt 6500 example1.pcap
